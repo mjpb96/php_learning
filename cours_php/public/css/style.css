@@ -1,0 +1,150 @@
+body{
+	width: 60rem;
+	margin: 1rem auto;
+	font-family: arial;
+}
+
+a{
+	text-decoration: none;
+	color: initial;
+}
+
+h1{
+	font-size: 1.5rem;
+}
+
+.site-nav{
+	margin: 2rem 0;
+}
+
+.site-nav a{
+	background-color: lightgrey;
+	padding: 1rem 2rem;
+}
+
+form, p{
+	margin: 1rem 0;
+}
+
+input[type="submit"], .btn{
+	color: white;
+	border: 0;
+	padding: .5rem 1.5rem;
+}
+
+.btn-add{
+	background-color: lightskyblue;
+}
+
+.btn-update{
+	background-color: lightsalmon;
+}
+
+.btn-delete{
+	background-color: lightcoral;
+}
+
+.form-error{
+	margin: .5rem 0;
+	color: lightcoral;
+}
+
+.alert{
+	background-color: lightgreen;
+	text-align: center;
+	padding: .5rem;
+	margin: 1rem 0;
+}
+
+.alert-error{
+	background-color: lightcoral;
+}
+
+table{
+	width: 100%;
+	border-collapse: collapse;
+	margin: 1rem 0;
+}
+
+tr{
+	border-color: darkgray;
+	border-style: solid;
+	border-width: 0 0 .1rem 0;
+}
+
+th{
+	background-color: lightgray;
+	padding: 0.5rem;
+	text-align: left;
+}
+
+td{
+	padding: 1rem;
+	vertical-align: middle;
+}
+
+td img{
+	width: 5rem;
+}
+
+/* cibler les dernières colonnes */
+td:last-child{
+	text-align: right;
+	min-width: 15rem;
+}
+
+/* numérotation des étapes d'un voyage */
+.steps-list{
+	list-style: decimal;
+}
+
+.steps-list li{
+	margin: 0.5rem 0;
+}
+
+/* voyages */
+.travels{
+	display: flex;
+	margin: 1rem 0;
+}
+
+.travel{
+	width: 24%;
+	margin: 0 0.5rem 0 0;
+}
+
+.travel-image img{
+	width: 100%;
+}
+
+.travel-name{
+	margin: 1rem 0 0 0;
+}
+
+h2{
+	font-size: 1.2rem;
+	margin: 2rem 0 1rem 0;
+}
+
+ol{
+	list-style: decimal;
+}
+
+li{
+	margin: 0.5rem 0;
+}
+
+/* les images occupent toute la largeur de leur bloc parent */
+img, video, iframe{
+	width:100%;
+}
+
+.travel-details-image{
+	width: 50%;
+}
+
+.travel-details-period{
+	background-color: lightgray;
+	padding: 0.1rem 0.3rem;
+	margin: 1rem 0;
+}
